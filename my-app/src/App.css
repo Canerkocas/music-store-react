@@ -1,0 +1,79 @@
+:root {
+  --mainRed: #ff5050;
+  --mainDark: #1a1a1a;
+}
+
+body {
+  font-family: "Noto Sans", sans-serif !important;
+  background-color: #f3f3f3 !important;
+  color: var(--mainDark);
+}
+
+.text-title {
+  font-family: "Josefin Sans", sans-serif;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+}
+
+.text-brand {
+  font-family: "Quicksand", sans-serif;
+  font-size: 1rem;
+
+  font-weight: bold;
+}
+
+.text-price {
+  font-weight: bold;
+  font-size: 1.2rem;
+  letter-spacing: 0.1rem;
+  color: var(--mainRed);
+}
+
+.text-detail {
+  font-size: 1.5rem;
+  color: var(--mainRed);
+  font-weight: bold;
+}
+
+.detail-button {
+  font-size: 1.3rem;
+  text-transform: capitalize;
+  background: transparent;
+  border: 2px solid #666666;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  color: var(--mainDark);
+  margin: 0.2rem 0.5rem;
+  padding: 0.2rem 0.4rem;
+  transition: all 0.2s;
+}
+
+.detail-button:hover {
+  background-color: var(--mainRed);
+}
+
+.fa-star {
+  color: var(--mainRed);
+  font-size: 1.4rem;
+  transform: translateY(-2px);
+}
+
+.btn-cart {
+  color: var(--mainRed);
+  background: transparent;
+  text-transform: capitalize;
+  font-size: 0.9rem !important;
+  border-radius: 0 !important;
+  border: 0.1rem solid var(--mainDark) !important;
+}
+
+.btn-cart:hover {
+  background: var(--mainRed) !important;
+  color: #f3f3f3 !important;
+}
+
+.cart-icon {
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: var(--mainRed);
+}
